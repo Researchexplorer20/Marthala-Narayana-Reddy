@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Marthala Narayana Reddy – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0; padding: 0;
+        font-family: Inter, sans-serif;
+        background: #ffffff;
+        color: #1c1c1c;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+    header {
+        text-align: left;
+        padding: 20px 0;
+        border-bottom: 2px solid #ececec;
+    }
+    h1 { margin-bottom: 4px; font-size: 28px; }
+    h2 { margin-top: 32px; margin-bottom: 8px; font-size: 22px; }
+    .muted { color: #666; }
+    .button {
+        display: inline-block;
+        padding: 8px 14px;
+        background: #005bff;
+        color: #fff;
+        border-radius: 6px;
+        text-decoration: none;
+        margin-right: 8px;
+        font-size: 14px;
+    }
+    .section {
+        margin-top: 24px;
+    }
+    .project {
+        margin-bottom: 18px;
+        padding: 14px;
+        background: #f7f7f7;
+        border-radius: 6px;
+    }
+    .project-title {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    ul { padding-left: 20px; }
+    footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+        border-top: 1px solid #ececec;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+    <h1>Marthala Narayana Reddy</h1>
+    <div class="muted">Senior Engineer – R&D (Defence & Aerospace), Mumbai</div>
+    <p class="muted">Research Interest: <strong>Computational Aero-Structural Materials Mechanics</strong></p>
+    <a class="button" href="Marthala_Reddy_CV.pdf" target="_blank">Download CV</a>
+    <a class="button" href="mailto:nars5902@gmail.com">Email Me</a>
+</header>
+
+
+<!-- ABOUT SECTION -->
+<section class="section">
+    <h2>About</h2>
+    <p class="muted">
+        I am a mechanical engineer with experience in aerospace and defence R&D, focusing on aero-structural mechanics,
+        composite materials, CFD/FEA simulations, underwater acoustics, vibration analysis, and intelligent diagnostics.
+        My work spans UAVs, UUVs, radomes, pressure vessels, composite structures, and multi-physics coupling.
+    </p>
+</section>
+
+
+<!-- RESEARCH INTERESTS -->
+<section class="section">
+    <h2>Research Interests</h2>
+    <ul class="muted">
+        <li>Structural mechanics, nonlinear behaviour, vibrations & acoustics</li>
+        <li>Composite materials, failure mechanics, filament winding, RTM</li>
+        <li>FEA, CFD, hydrodynamics, cavitation & Fluid–Structure Interaction (FSI)</li>
+        <li>Aero/hydro-mechanical design: UAV/UUV, radomes, pressure vessels</li>
+        <li>AI/ML for digital twins, damage detection & health monitoring</li>
+    </ul>
+</section>
+
+
+<!-- PROJECTS -->
+<section class="section">
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+        <div class="project-title">VTOL UAV — Aero-Structural & Control System Design</div>
+        <p class="muted">CFD optimisation • Composite FEA • MATLAB/Simulink control model • Prototype validation</p>
+    </div>
+
+    <div class="project">
+        <div class="project-title">MEAT (Mach 0.6) — Composite Airframe & Aerodynamic Validation</div>
+        <p class="muted">Subsonic aerodynamic CFD • Composite optimisation • Stability & control integration</p>
+    </div>
+
+    <div class="project">
+        <div class="project-title">UUV — Structural, Hydrodynamic & Underwater Acoustics</div>
+        <p class="muted">CFD/FEA • Cavitation modelling • Acoustic signature prediction • ML-based anomaly detection</p>
+    </div>
+
+    <div class="project">
+        <div class="project-title">650-bar Type-III Composite Pressure Cylinders</div>
+        <p class="muted">Filament winding • Anisotropic FEA • Hydrostatic & fatigue testing • NDT & defect modelling</p>
+    </div>
+
+    <div class="project">
+        <div class="project-title">Ka-band Geodesic Radome & ADFCR Mechanisms</div>
+        <p class="muted">EM-structural simulation • Low-RCS mechanical design • Vibro-acoustic evaluation</p>
+    </div>
+
+    <div class="project">
+        <div class="project-title">Composite & Metamaterial Failure Analysis</div>
+        <p class="muted">UT, X-ray, C-scan • AE signal analysis • ML-based damage classification</p>
+    </div>
+</section>
+
+
+<!-- PUBLICATIONS -->
+<section class="section">
+    <h2>Publications & Talks</h2>
+    <ul class="muted">
+        <li>“Design for Manufacturing of Hydraulic Cylinders Using Composite Materials”, FPSI Conference, 2021.</li>
+        <li>Technical Talk: “Indigenisation of Carbon Fibre Materials for Aerospace Applications”, ISRO Trivandrum, 2024.</li>
+    </ul>
+</section>
+
+
+<!-- EDUCATION & EXPERIENCE -->
+<section class="section">
+    <h2>Education & Experience</h2>
+    <ul class="muted">
+        <li>M.Tech in Engineering Design — JNTU Hyderabad (2022)</li>
+        <li>B.Tech in Mechanical Engineering — IIITDM Jabalpur (2018)</li>
+        <li>Senior Engineer — R&D, L&T Defence (2022–Present)</li>
+    </ul>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    © <span id="year"></span> Marthala Narayana Reddy — Portfolio Website
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</div>
+</body>
+</html>
